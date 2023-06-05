@@ -1,0 +1,167 @@
+#navbar{
+    display: flex;
+    flex-flow:column;
+}
+#topnav{
+    display: flex;
+    padding-left:80px ;
+    padding-right: 80px;
+    height: 50px;
+    background-color: #b3717e;
+    justify-content:space-between;
+    align-items: center;
+}
+#thanhtimkiem{
+    display: flex;
+    align-items: center;
+}
+#otrong{
+    background-color: white;
+    width: 200px;
+    height: 20px;
+}
+#bottomnav{    
+    padding-left:200px ;
+    padding-right: 200px;
+    display: flex;
+    height: 30px;
+    background-color:#d5bec3 ;
+    justify-content: space-between;
+    align-items: center;
+}
+#main{
+    display: flex;
+    flex-flow: row;
+    border: 3px solid #b3717e;
+    
+
+}
+
+#thanhdoc{
+		display: flex;
+		flex-flow:column;
+		border-left: 3px solid #b3717e;
+        border-right: 3px solid #b3717e;
+        position:relative;  
+        margin:0px; 
+        padding:0px;  
+        left:0%;
+        width: 14%;
+ 
+
+
+}
+
+.heading{
+    color: #b3717e;
+    
+}
+
+#COLOR{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-bottom: 3px solid #b3717e
+}
+
+/* #dong1{
+    display: flex , inline-block;
+
+} */
+
+#luachonmausac{
+    display: block;
+    flex-direction: row wrap;
+
+
+}
+
+.omau{
+    display: inline-block;
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #b3717e;
+
+    border-radius: 25%;
+    align-items: center;
+}
+
+#PRICE{
+    display: flex;
+    flex-flow:column;
+    padding: 15px;
+    border-bottom:3px solid #b3717e;
+}
+
+.menhgia{
+    color: #b3717e;
+}
+
+#DESIGN{
+    display: flex;
+    flex-flow: column;
+    padding: 15px;
+}
+
+#noidung{
+    display:inline-block;
+    flex-direction: row ;
+
+    padding: 60px;
+
+}
+
+.otrungbay{
+    display: flex;
+    flex-flow:column;
+    border: 2px solid #b3717e;
+    height:230px;
+    width: 230px;
+    margin:20px;
+}
+
+.hinhanh{
+    position: relative;
+    background-color: #d5bec3;
+    width:229px;
+    height: 160px;
+
+}
+
+.giatien{
+    display: block;
+    padding-left:20px;
+
+}
+
+#Copyright{
+    display: flex;
+    flex-direction: row;
+
+    padding:20px;
+    background-color: #b3717e;
+    margin:0px;
+    height:100px
+}
+
+#ContactInfo{
+    display: flex;
+    margin:0px;
+    padding-left:20px;
+    flex-direction: column;
+    justify-content: center;
+}
+#copyleft{
+    display: flex;
+    margin-left:900px;
+    flex-direction: column-reverse;
+
+}
+
+
+
+
+
+
+
